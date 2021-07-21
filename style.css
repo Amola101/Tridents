@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #DAE0E5;
+}
+
+
+
+
+.fillUp{
+  background-color: #A1CEC7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fillUp input{
+  padding: 5px;
+}
+
+.biggInput{
+  height: 80px;
+  width: 200px;
+}
+
+footer{
+  background-color:#022E4F;
+  padding: 15px;
+}
+
+.foot{
+  display: flex;
+  align-items: flex-start;
+}
+
+.foot li{
+  list-style: none ;
+  color: #DAE0E5
+}
+
+footer h4{
+  color: #DAE0E5
+}
+
+#fo{
+  padding-top: 30px;
+  text-align: right;
+}
