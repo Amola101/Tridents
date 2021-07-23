@@ -2,37 +2,140 @@
   margin: 0px;
 }
 
+/* 
+user agent stylesheet div {
+    display: block;
+} */
+
 body{
-  background-color: #DAE0E5;
+   background-color: #FFF9FA; 
+}
+
+nav{
+  padding: 20px;
+  background-color: #26585D;
+}
+
+/* Intro */
+
+.grey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 90px;
+  /* margin-left: 60px;
+  margin-right: 60px; */
+  margin-bottom: 40px; 
+  /* margin-top: 40px; */
+
+  background-image: url(https://images.pexels.com/photos/944440/pexels-photo-944440.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size: 100%;
+  /* backround-opacity: 20; */
+
+  text-align: center;
+  font-size: 70px;
+  color: #DAE0E5;
+}
+
+.grey button{
+   font-size: 10px;
+   padding: 20px;
+   width: 200px;
+   background-color: #07213f;
+   color: #DAE0E5;
+   border-radius: 10px;
 }
 
 
 
+
+.grey button:hover{
+   font-size: 10px;
+   padding: 20px;
+   width: 200px;
+   background-color: #07213fb4;
+   color: white;
+   border-radius: 10px;
+}
+
+.grey button a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* About */
+
+.about{
+  width: 400px;
+  padding: 20px;
+
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+
+}
+
+.about p {
+  width: 400px;
+}
+
+/* Fill Up CSS */
+
+.fillUpForm{
+  display: flex;
+  justify-content: center;
+}
 
 .fillUp{
-  background-color: #A1CEC7;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px; 
+  color: white;
+
+  background-color: #26585D;
+  width: 700px;
+  padding: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
+
+
+.fill {
+  width: 200px;
+  padding: 10px;
+} 
 
 .fillUp input{
   padding: 5px;
 }
 
-.biggInput{
+.biggInput1{
+  width: 200px;
+}
+
+.biggInput2{
   height: 80px;
   width: 200px;
 }
 
+
+/*FOOTER CSS*/
+
 footer{
-  background-color:#022E4F;
+  background-color:#26585D;
   padding: 15px;
 }
 
 .foot{
   display: flex;
   align-items: flex-start;
+
 }
 
 .foot li{

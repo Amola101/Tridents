@@ -1,5 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="event.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Events</title>
+</head>
 
-<footer>
+<!-- ️‍🔥I would add a nav bar here so people can go back to the home page
+️‍🔥 -->
+<header>
+  <nav></nav>
+</header>
+
+<body>
+
+  <div class="filter">
+    <div>
+       <form class="ff">
+         <div class="fff">
+            <input type="radio" id="vo1" name="v-event" value="volunteer1">
+            <label for="vo1">Donate</label><br>
+            <input type="radio" id="vo2" name="v-event" value="volunteer2">
+            <label for="vo2">Beach CleanUp</label><br>
+            <input type="radio" id="vo3"name="v-event" value="volunteer3">
+            <label for="vo3">Organizing an event</label> <br>
+            <input type="radio" id="vo4"name="v-event" value="volunteer4">
+            <label for="vo4">River CleanUps</label> <br>
+            <input type="radio" id="vo5" name="v-event" value="volunteer5">
+            <label for="vo5">Micropastic Monitoring</label> <br>
+         </div>
+          
+         <div class="fff">
+            <input type="radio" id="vo6" name="v-event" value="Mammal">
+            <label for="vo6">Submarine Restoration</label><br>
+            <input type="radio" id="vo7" name="v-event" value="Fish">
+            <label for="vo7">Turtle Nest Investigation</label><br>
+            <input type="radio" id="vo8" name="v-event" value="Bird">
+            <label for="vo8">Investigation of the pH of the water</label> <br>
+            <input type="radio" id="vo9" name="v-event" value="Reptile">
+            <label for="vo9">Marine Conservation Programs</label> <br>
+            <input type="radio" id="vo10" name="v-event" value="Amphibians">
+            <label for="vo10">Competitions</label> <br>
+         </div>
+       </form>
+    </div>
+
+    <div>
+      <label for="cars">Choose a country:</label>
+      <select name="cars" id="cars">
+        <option value="volvo">United States</option>
+        <option value="saab">Costa Rica</option>
+        <option value="mercedes">Puerto Rico</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br> <br>
+      <input type="submit" class="submiTbtn"> 
+    </div>
+  </div>
+
+
+  <section class="theEvent">
+    <div class="e-cont" id="event1">
+      <div class="e-info1">
+         <div class="e-img">
+         <img src="https://rincon.surfrider.org/wp-content/uploads/2016/02/11709565_931705833552107_3491101373582271920_n.jpg" alt="">
+         </div>
+
+         <div class="about-info">
+          <h1>Event: Rincon's Beach Clean Up Programs</h1>
+          <p>This program is about beach, ocean, and coastal cleaning expeditions. Retrieving plastic from our environment is our main purpose.</p>
+          <h4>Place: Rincon PR </h4>
+        </div>
+      </div>
+
+       <div class="e-info2">
+        <!-- <div class="ee-info"> -->
+          <img src="https://rincon.surfrider.org/wp-content/uploads/2018/08/Rincon-PR-Chapter_Logo-Blue.jpg" alt="">
+          <br> <br>
+          <button class="orgbtn"><a href="https://rincon.surfrider.org/programs/beach-cleanups/">Explore</a></button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    
+    <div class="e-cont" id="event2">
+      <div class="e-info1">
+         <div class="e-img">
+         <img src="https://www.fundssociety.com/sites/default/files/style/banamex_sea_turtles_volunteers-thumb-400x266-1615.jpg" alt="">
+         </div>
+
+         <div class="about-info">
+          <h1>Event: Sea Turtle Conservation in Mexico</h1>
+          <p>Work with expert conservationists to protect endangered species like the Olive Ridley Turtle. Carry out research and collect scientific data that will be used by researchers across the Americas. Help to move turtle nests to protected corrals, and then release hatchlings safely into the ocean.</p>
+          <h4>Place: Mexico</h4>
+        </div>
+      </div>
+
+       <div class="e-info2">
+        <!-- <div class="ee-info"> -->
+          <img src="https://rs.projects-abroad.ie/v1/products/product-5b645014ee2ee.[400].png" alt="">
+          <br> <br>
+          <button class="orgbtn"><a href="https://www.projects-abroad.org/projects/volunteer-sea-turtle-conservation-mexico/">Explore</a></button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="e-cont" id="event3">
+      <div class="e-info1">
+         <div class="e-img">
+         <img src="https://lh3.googleusercontent.com/proxy/lpNkrWeDQ4ZTLnedm_ckJ26L3xZWVGLCqL7oJmA9wkjSFX9umz8r8ODp5p90Up5OYOIy4oshE92f2nEybQCCLVZb0xffU80JKk4" alt="">
+         </div>
+<!-- 
+️ 🔥the image doesn't show up when I run it
+️‍🔥 -->
+         <div class="about-info">
+          <h1>Event: Shark Conservation Volunteering in Fiji</h1>
+          <p>Based in the Pacific Harbour, you’ll live alongside like-minded volunteers in shared accommodation, exchanging stories and creating new memories that will last a lifetime.</p>
+          <h4>Place: Completely flexible dates</h4>
+        </div>
+      </div>
+
+       <div class="e-info2">
+        <!-- <div class="ee-info"> -->
+          <img src="https://rs.projects-abroad.ie/v1/products/product-5b645014ee2ee.[400].png" alt="">
+          <br> <br>
+          <button class="orgbtn"><a href="https://www.projects-abroad.org/projects/shark-conservation-volunteering-fiji/"> Explore</a></button>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
+   <div class="fillUpForm" id="fillID">
+   <div class="fillUp">
+   <div class="fill">
+     <form >
+       <p>Name of the Event</p>
+       <input type=""text"" class="biggInput1" class="eventName" id="n-event" name="fav_language">
+       <br>
+      <p>Description of the Event</p>
+       <input type=""text"" class="biggInput2" class="eventDes" id="d-event" name="fav_language">
+      <p>Place of the Event</p>
+       <input type=""text"" class="biggInput1" class="eventPlace" 
+       id="p-event" name="fav_language">
+    </form>
+   </div>
+
+   <div class="fill">
+     <form action="">
+       <p>Upload Image for Event</p>
+       <input id="image-file" type="file" class="eventImg" />
+       <p>Organization</p>
+       <input id="image-file" type="file" class="orgImg"/>
+       <p>Fauna</p>
+       <input id="image-file" type="file" class="faunaImg"/>
+       <p>Flora</p>
+       <input id="image-file" type="file" class="floraImg"/>
+      </form>
+   </div>
+
+    <div class="fill">
+      <form action="">
+         <p>Organization Link</p>
+         <input type=""text"" class="orgLink" id="p-event" name="fav_language">
+         <p>Fauna Description</p>
+         <input type=""text"" class="floraDes" id="p-event" name="fav_language">
+         <p>Flora Description</p>
+         <input type=""text"" class="faunaDes" id="p-event" name="fav_language">
+         <p>Date of the Event</p>
+         <input type="date" class="eventDate"> <br>
+         <input type="submit" class="submitBtn">
+      <!-- //I would link the event.html in the submit button so it redirects there -->
+      </form>
+    </div>
+    </div>
+ </div>
+
+  <footer>
   <div class="foot">
   <div class="f">
   
@@ -13,7 +193,7 @@
   </ul>
   </div>
 
-    <div class="f">
+  <div class="f">
   <ul>
     <h4>Link</h4>
     <li>Clean Air</li>
@@ -28,3 +208,6 @@
   <h4 id="fo">© 2021 Volunteerly, Inc. All rights reserved</h4>
 
 </footer>
+   <script src="script.js"></script>
+</body>
+</html>

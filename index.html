@@ -3,38 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Tridents</title>
+    <title>TRIDENTS</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<header>
+  <nav>  
+    
+  </nav>
+</header>
 
- <div class="fillUp">
+<body>
+ <div class="grey">
+   <div>
+       <h1> Tridents </h1>
+       <button class=""> <a href="#fillID"> Create an Event </a> </button>
+       <button class=""><a href="event.html">Search for an Event</a></button>
+    </div>
+ </div>
+
+<center>
+ <div class="about">
+    <div>
+     <h1>About</h1> <br>
+     <p>People are usually uninformed about foundations and places where they can collaborate (beach cleanups and river clean ups...). The website will try to help people find events and organizations where they can help depending on where they live and their time available. </p>
+   </div>
+ </div>
+ </center>
+
+ <br>
+ </br>
+
+ <div class="fillUpForm" id="fillID">
+   <div class="fillUp">
    <div class="fill">
-     <form>
+     <form >
        <p>Name of the Event</p>
-       <input type=""text"" class="biggInput" id="n-event" name="fav_language">
+       <input type=""text"" class="biggInput1" class="eventName" id="n-event" name="fav_language">
        <br>
       <p>Description of the Event</p>
-       <input type=""text"" class="biggInput" id="d-event" name="fav_language">
+       <input type=""text"" class="biggInput2" class="eventDes" id="d-event" name="fav_language">
       <p>Place of the Event</p>
-       <input type=""text"" id="p-event" name="fav_language">
+       <input type=""text"" class="biggInput1" class="eventPlace" 
+       id="p-event" name="fav_language">
     </form>
    </div>
 
    <div class="fill">
      <form action="">
-       <p>Upload Img for Event</p>
-       <input id="image-file" type="file" />
+       <p>Upload Image for Event</p>
+       <input id="image-file" type="file" class="eventImg" />
        <p>Organization</p>
-       <input id="image-file" type="file" />
-       <p>Date of the Event</p>
-       <input type="date"> <br>
-       <input type="submit" class="submitBtn"> 
+       <input id="image-file" type="file" class="orgImg"/>
+       <p>Fauna</p>
+       <input id="image-file" type="file" class="faunaImg"/>
+       <p>Flora</p>
+       <input id="image-file" type="file" class="floraImg"/>
       </form>
    </div>
+
+    <div class="fill">
+      <form action="">
+         <p>Organization Link</p>
+         <input type=""text"" class="orgLink" id="p-event" name="fav_language">
+         <p>Fauna Description</p>
+         <input type=""text"" class="floraDes" id="p-event" name="fav_language">
+         <p>Flora Description</p>
+         <input type=""text"" class="faunaDes" id="p-event" name="fav_language">
+         <p>Date of the Event</p>
+         <input type="date" class="eventDate"> <br>
+         <input type="submit" class="submitBtn">
+      <!-- //I would link the event.html in the submit button so it redirects there -->
+      </form>
+    </div>
+    </div>
  </div>
+
+ </body>
+
 
 <footer>
   <div class="foot">
@@ -65,4 +111,6 @@
   <h4 id="fo">© 2021 Volunteerly, Inc. All rights reserved</h4>
 
 </footer>
+ <script src="script.js"></script>
+
 </html>
